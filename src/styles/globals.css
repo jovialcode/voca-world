@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: NotoSans-Meduim, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+    html {
+        color-scheme: dark;
+    }
+
+    body {
+        color: white;
+        background: black;
+    }
+}
+
+@font-face {
+    font-family: "NotoSans-Black";
+    src: url("/fonts/NotoSansKR-Black.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "NotoSans-Bold";
+    src: url("/fonts/NotoSansKR-Bold.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "NotoSans-Light";
+    src: url("/fonts/NotoSansKR-Light.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "NotoSans-Medium";
+    src: url("/fonts/NotoSansKR-Medium.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "NotoSans-Regular";
+    src: url("/fonts/NotoSansKR-Regular.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "NotoSans-Thin";
+    src: url("/fonts/NotoSansKR-Thin.otf") format("truetype");
+}

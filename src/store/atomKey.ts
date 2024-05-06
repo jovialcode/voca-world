@@ -1,0 +1,4 @@
+export const WORD_BEEP_WORDS_KEY = "WORD_BEEP_WORDS";
+export const WORD_BEEP_WORDS_LOAD_KEY = "WORD_BEEP_WORDS_LOAD";
+
+export const IS_LOADING_KEY = "IS_LOADING"
